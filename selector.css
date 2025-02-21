@@ -1,0 +1,28 @@
+  /* 1. Element Selector: Sare <li> ko style karega */
+        li {
+            color: #0077b6;
+            font-size: 18px;
+        }
+
+        /* 2. Class Selector: sirf .highlight class wale items ko style karega */
+        .highlight {
+            background-color: #ffdd57;
+            padding: 5px;
+        }
+
+        /* 3. ID Selector: #special ID wale item ko style karega */
+        #special {
+            color: #d62828;
+            font-weight: bold;
+        }
+
+        /* 4. Child Selector: ul ke direct child <li> ko style karega */
+        ul > li {
+            margin: 10px 0;
+        }
+
+        /* 5. Pseudo-class Selector: Jab mouse hover kare to style badal jayega */
+        li:hover {
+            color: #023e8a;
+            cursor: pointer;
+        }
